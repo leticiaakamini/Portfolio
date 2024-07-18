@@ -1,0 +1,120 @@
+/* Eric Meyer's CSS Reset v2.0 - http://meyerweb.com/eric/tools/css/reset/ */
+
+/* Reset de todos os elementos para valores padrão */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset para hgroup, figure, etc. */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Correção de fluxo de conteúdo em blocos para IE 8+ */
+div {
+    display: block;
+}
+
+/* Redefine fontes para links e itens de lista */
+ol, ul {
+    list-style: none;
+}
+
+/* Redefine links para comportar-se consistentemente em todos os navegadores */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Correção de quebra de texto no IE 7 e superiores */
+/* Use 'word-wrap: break-word;' para solucionar problemas de quebra de palavras */
+body {
+    line-height: 1;
+}
+
+/* Evita margens colapsadas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset para todos os elementos de formulário */
+input, textarea, select {
+    vertical-align: middle;
+}
+
+/* Redefine elementos de mídia incorporados */
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+/* Redefine elementos incorporados e objetos */
+embed, object {
+    display: inline-block;
+}
+
+/* Redefine elementos blockquote */
+blockquote, q {
+    quotes: none;
+}
+
+/* Redefine elementos blockquote */
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Redefine botões */
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+/* Correção de espaçamento entre elementos em listas no IE 7 e superiores */
+/* Use 'list-style-position: inside;' para solucionar problemas de layout */
+ul, ol {
+    list-style-position: inside;
+}
+
+/* Redefine textarea overflow */
+textarea {
+    overflow: auto;
+    resize: vertical; /* Redefine o comportamento de redimensionamento vertical */
+}
+
+/* Redefine elementos do tipo article para serem renderizados como blocos */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Redefine elementos 'h1' a 'h6' para terem o tamanho da fonte herdado */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Redefine elementos de lista 'li' para terem o estilo de lista herdado */
+li {
+    list-style: inherit;
+}
